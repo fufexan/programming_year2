@@ -1,5 +1,5 @@
 /*
- * 2. Using a file reading mechanism (BufferedReader/InputStreamReader) input:
+ * 1. Using a KB reading mechanism (BufferedReader/InputStreamReader) input:
  * a message of String type, a day as an integer, a month as a String and a
  * year as an integer variable. The process will end by passing to a new line,
  * or by typing a special String. Separate and display the tokens on different
@@ -10,13 +10,15 @@
  * TT_WORD.
  */
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.StreamTokenizer;
 
-public class Lab8_Ex2_FufezanMihai {
+public class Lab8_Ex1_FufezanMihai {
     public static void main(String[] args) {
         try {
-            FileInputStream fileInputStream = new FileInputStream("ex2.txt");
-            InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
+            InputStreamReader inputStreamReader = new InputStreamReader(System.in);
             BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
             StreamTokenizer streamTokenizer = new StreamTokenizer(bufferedReader);
             streamTokenizer.eolIsSignificant(true);
