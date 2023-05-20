@@ -1,4 +1,5 @@
 /*
+ * Lab 6, Fufezan Mihai, ex 1
  * 1. Write a Java program that defines an array of double values and read the
  * appropriate data from the keyboard. Handle the exception produced when the
  * code tries to access an element that has a negative index or an index
@@ -11,7 +12,7 @@
 
 import java.util.Scanner;
 
-public class Main {
+public class IndexOutOfBoundsMain {
     public static void main(String[] args) {
         System.out.println("How many lines should the matrix have? ");
         Scanner in = new Scanner(System.in);

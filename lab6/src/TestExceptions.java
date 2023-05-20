@@ -1,4 +1,5 @@
 /*
+ * Lab 6, Fufezan Mihai, ex 2
  * 2. Write a Java application which, within the main() method, contains a
  * sequence of code that may throw various exceptions, such as
  * ArithmeticException, ArrayIndexOutOfBoundsException, NullPointerException,

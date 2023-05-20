@@ -1,4 +1,5 @@
 /*
+ * Lab 6, Fufezan Mihai, ex 3
  * 3. Define a package that declares an interface named Int1 (2 integer
  * variables and a sum() method that returns the sum of 2 integer values).
  * Include in the same package a class named Class1 (2 protected double
