@@ -1,0 +1,3 @@
+circle, 2
+square, 2
+triangle, 3
